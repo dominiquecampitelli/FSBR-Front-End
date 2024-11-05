@@ -1,15 +1,19 @@
-import { Card, Button, Form, Input } from "antd";
+import { Button, Form, Input } from "antd";
 
 import { Container } from "../../components/container";
+
+import { Card, HeadLine, Logo, CreateAccount } from "./styles";
 
 export function Login() {
   return (
     <Container>
-      <Card style={{ width: "450px" }}>
+      <Card>
+        <HeadLine>
+          <Logo>FSBR</Logo>
+          <CreateAccount>Criar conta</CreateAccount>
+        </HeadLine>
         <Form
           name="basic"
-          labelCol={{ span: 8 }}
-          wrapperCol={{ span: 16 }}
           initialValues={{ remember: true }}
           autoComplete="off"
         >
@@ -27,9 +31,9 @@ export function Login() {
             <Input.Password placeholder="Senha" />
           </Form.Item>
 
-          <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
+          <Form.Item style={{ margin: 0 }}>
             <Button type="primary" block htmlType="submit">
-              Submit
+              Entrar
             </Button>
           </Form.Item>
         </Form>

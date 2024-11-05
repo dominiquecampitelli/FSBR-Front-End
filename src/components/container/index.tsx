@@ -1,11 +1,11 @@
 import React from "react";
 
-import "./styles.css";
+import { ScreenSize } from "./styles";
 
 interface Props {
   children: React.ReactNode;
 }
 
 export function Container({ children }: Props) {
-  return <div className="screen-size">{children}</div>;
+  return <ScreenSize>{children}</ScreenSize>;
 }
