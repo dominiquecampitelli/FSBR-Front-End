@@ -2,7 +2,7 @@ import { Button, Form, Input } from "antd";
 
 import { Container } from "../../components/container";
 
-import { Card, HeadLine, Logo, CreateAccount } from "./styles";
+import { Card, HeadLine, Logo } from "./styles";
 
 export function Login() {
   return (
@@ -10,7 +10,7 @@ export function Login() {
       <Card>
         <HeadLine>
           <Logo>FSBR</Logo>
-          <CreateAccount>Criar conta</CreateAccount>
+          <Button type="link">Criar conta</Button>
         </HeadLine>
         <Form
           name="basic"
