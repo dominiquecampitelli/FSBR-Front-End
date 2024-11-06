@@ -1,8 +1,9 @@
 import { Button, Form, Input, Row } from "antd";
 
 import { Container } from "../../components/container";
+import { Card } from "../../components/card";
 
-import { Navbar, Logo, Card, HeadLine } from "./styles";
+import { Navbar, Logo, HeadLine } from "./styles";
 
 export function Home() {
   return (

@@ -6,6 +6,6 @@ interface Props {
   children: React.ReactNode;
 }
 
-export function Container({ children }: Props) {
+export function Card({ children }: Props) {
   return <Content>{children}</Content>;
 }

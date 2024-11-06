@@ -1,8 +1,9 @@
 import { Button, Form, Input } from "antd";
 
 import { Container } from "../../components/container";
+import { Card } from "../../components/card";
 
-import { Card, HeadLine, Logo } from "./styles";
+import { HeadLine, Logo } from "./styles";
 
 export function Register() {
   return (
