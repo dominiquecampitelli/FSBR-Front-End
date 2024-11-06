@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Card = styled.div`
+export const Content = styled.div`
   margin-top: 50%;
   width: 100%;
   padding: 20px;
